@@ -18,7 +18,7 @@
                         var cell2 = row.insertCell(1); 
                         cell1.innerHTML = element.name;
                         element.messages.forEach(message => {
-                            cell2.innerHTML += message.message+'<br><br>';
+                            cell2.innerHTML += message.message + ' - ' + message.created_at + '<br><br>';
                         });
                     });
                 }
@@ -33,6 +33,6 @@
             Show Author and its messages:
             <button onclick="show()">Show</button>
         </p>
-        <table id="data" border="1"></table>
+        <table id="data" border="1" width="100%"></table>
     </body>
 </html>
