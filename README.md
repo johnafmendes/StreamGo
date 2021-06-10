@@ -17,3 +17,7 @@ POST - /author/message
 
 ## API to List Author and its messages
 GET - /author
+
+## Index Page to Show Authors and its messages
+
+http://localhost
